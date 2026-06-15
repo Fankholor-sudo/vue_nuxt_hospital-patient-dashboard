@@ -1,6 +1,6 @@
-# Tech.Care Patient Dashboard
+## Tech.Care Patient Dashboard
 
-## Tech Stack
+### Tech Stack
 - Nuxt 3
 - Vue 3
 - Vuex 4
@@ -8,7 +8,11 @@
 - Chart.js + vue-chartjs
 - Plain CSS
 
-## Setup
+### Preview
+  <img width="1512" height="827" alt="Screenshot 2026-06-15 at 22 48 12" src="https://github.com/user-attachments/assets/660aa990-70dc-4077-8f45-fdaf3cf2780d" />
+
+
+### Setup
 ```bash
 yarn install
 cp .env.example .env
@@ -17,7 +21,7 @@ yarn dev
 Open the local URL printed in the terminal => localhost server.
 
 
-## Build
+### Build
 ```bash
 yarn build
 yarn preview
@@ -28,7 +32,7 @@ For static review output:
 yarn generate
 ```
 
-## Project Structure
+### Project Structure
 ```text
 components/          Reusable UI components
 composables/         Store access layer
